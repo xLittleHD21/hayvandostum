@@ -1,0 +1,23 @@
+# Tüm metin dosyalarında LF kullan
+* text=auto eol=lf
+
+# Windows batch/powershell dosyaları CRLF kalsın
+*.bat eol=crlf
+*.cmd eol=crlf
+*.ps1 eol=crlf
+
+# Kaynak dosyalar LF
+*.ts  eol=lf
+*.tsx eol=lf
+*.js  eol=lf
+*.jsx eol=lf
+*.json eol=lf
+*.css eol=lf
+*.md  eol=lf
+*.svg eol=lf
+
+# İkili dosyalar
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
