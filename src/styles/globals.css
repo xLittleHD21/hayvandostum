@@ -1,0 +1,36 @@
+/* src/styles/globals.css */
+/* Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+html, body {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e5e7eb;
+}
+
+/* React Calendar base */
+.react-calendar {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 12px;
+  padding: 8px;
+}
+.react-calendar__tile--now {
+  background: rgba(99, 102, 241, 0.15);
+}
+.react-calendar__tile--active {
+  background: rgba(99, 102, 241, 0.25);
+}
